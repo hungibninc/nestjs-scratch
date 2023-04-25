@@ -1,9 +1,19 @@
 import { Controller, Get } from '@nestjs/common';
 
-@Controller()
+@Controller('/app')
 export class AppController {
-  @Get()
-  getRootRoute() {
-    return 'hi there!';
+  @Get('/login')
+  login() {
+    return 'login!';
+  }
+
+  @Get('/logout')
+  logout() {
+    return 'logout!';
+  }
+
+  @Get('/dashboard')
+  dashboard() {
+    return 'dashboard!';
   }
 }

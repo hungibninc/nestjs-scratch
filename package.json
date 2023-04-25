@@ -1,0 +1,15 @@
+{
+  "name": "scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hungibninc/nestjs-scratch.git",
+  "author": "Hung Le <lehung.ibninc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^9.4.0",
+    "@nestjs/core": "^9.4.0",
+    "@nestjs/platform-express": "^9.4.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^5.0.4"
+  }
+}
